@@ -5,5 +5,5 @@ option go_package = "corepb";
 
 message ConnAck {
 	int32 code = 1;
-    int32 datetime = 2;
+    int32 time = 2;
 }
