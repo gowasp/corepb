@@ -1,9 +1,0 @@
-syntax = "proto3";
-package corepb;
-
-option go_package = "corepb";
-
-message Publish {
-	string topic = 1;
-	bytes body = 2;
-}
